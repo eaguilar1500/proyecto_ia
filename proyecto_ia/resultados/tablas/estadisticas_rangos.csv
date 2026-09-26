@@ -1,0 +1,13 @@
+variable,minimo,Q1,mediana,Q3,maximo,conjunto,funcion,puntos
+horsepower,46.0,75.0,93.5,126.0,230.0,baja,"trapmf[mínimo, mínimo, Q1, mediana]","[46, 46, 75, 93.5]"
+horsepower,46.0,75.0,93.5,126.0,230.0,media,"trimf[Q1, mediana, Q3]","[75, 93.5, 126]"
+horsepower,46.0,75.0,93.5,126.0,230.0,alta,"trapmf[mediana, Q3, máximo, máximo]","[93.5, 126, 230, 230]"
+weight,1613.0,2225.25,2803.5,3614.75,5140.0,ligero,"trapmf[mínimo, mínimo, Q1, mediana]","[1613, 1613, 2225.25, 2803.5]"
+weight,1613.0,2225.25,2803.5,3614.75,5140.0,medio,"trimf[Q1, mediana, Q3]","[2225.25, 2803.5, 3614.75]"
+weight,1613.0,2225.25,2803.5,3614.75,5140.0,pesado,"trapmf[mediana, Q3, máximo, máximo]","[2803.5, 3614.75, 5140, 5140]"
+acceleration,8.0,13.775,15.5,17.025,24.8,baja,"trapmf[mínimo, mínimo, Q1, mediana]","[8, 8, 13.775, 15.5]"
+acceleration,8.0,13.775,15.5,17.025,24.8,media,"trimf[Q1, mediana, Q3]","[13.775, 15.5, 17.025]"
+acceleration,8.0,13.775,15.5,17.025,24.8,alta,"trapmf[mediana, Q3, máximo, máximo]","[15.5, 17.025, 24.8, 24.8]"
+mpg,9.0,17.0,22.75,29.0,46.6,eficiencia_baja,"trapmf[mínimo, mínimo, Q1, mediana]","[9, 9, 17, 22.75]"
+mpg,9.0,17.0,22.75,29.0,46.6,eficiencia_media,"trimf[Q1, mediana, Q3]","[17, 22.75, 29]"
+mpg,9.0,17.0,22.75,29.0,46.6,eficiencia_alta,"trapmf[mediana, Q3, máximo, máximo]","[22.75, 29, 46.6, 46.6]"

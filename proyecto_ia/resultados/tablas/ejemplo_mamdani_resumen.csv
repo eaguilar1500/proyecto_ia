@@ -1,0 +1,9 @@
+paso,concepto,valor
+3 - recorte,altura de eficiencia_media (máximo alpha),0.459
+3 - recorte,altura de eficiencia_alta (máximo alpha),0.395
+3 - recorte,altura de eficiencia_baja (máximo alpha),0.541
+5 - centroide,∫ y·μ(y) dy,445.41
+5 - centroide,∫ μ(y) dy,16.852
+5 - centroide,MPG obtenido (cálculo manual),26.431
+5 - centroide,MPG obtenido (ctrl.ControlSystemSimulation),26.431
+comparación,MPG real del auto,31.0

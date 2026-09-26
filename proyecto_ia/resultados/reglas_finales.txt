@@ -1,0 +1,51 @@
+Mejor conjunto de reglas encontrado durante la ejecución del algoritmo genético
+Cromosoma: [3, 2, 3, 3, 1, 0, 1, 0, 0, 0, 3, 1, 2, 1, 2, 1, 1, 2, 2, 0, 3, 1, 2, 3, 1, 2, 1]
+Reglas: 22 de 27
+
+Reglas lingüísticas:
+  R1 (G0): SI potencia es baja Y peso es ligero Y aceleración es baja ENTONCES eficiencia es alta
+  R2 (G1): SI potencia es baja Y peso es ligero Y aceleración es media ENTONCES eficiencia es media
+  R3 (G2): SI potencia es baja Y peso es ligero Y aceleración es alta ENTONCES eficiencia es alta
+  R4 (G3): SI potencia es baja Y peso es medio Y aceleración es baja ENTONCES eficiencia es alta
+  R5 (G4): SI potencia es baja Y peso es medio Y aceleración es media ENTONCES eficiencia es baja
+  R6 (G6): SI potencia es baja Y peso es pesado Y aceleración es baja ENTONCES eficiencia es baja
+  R7 (G10): SI potencia es media Y peso es ligero Y aceleración es media ENTONCES eficiencia es alta
+  R8 (G11): SI potencia es media Y peso es ligero Y aceleración es alta ENTONCES eficiencia es baja
+  R9 (G12): SI potencia es media Y peso es medio Y aceleración es baja ENTONCES eficiencia es media
+  R10 (G13): SI potencia es media Y peso es medio Y aceleración es media ENTONCES eficiencia es baja
+  R11 (G14): SI potencia es media Y peso es medio Y aceleración es alta ENTONCES eficiencia es media
+  R12 (G15): SI potencia es media Y peso es pesado Y aceleración es baja ENTONCES eficiencia es baja
+  R13 (G16): SI potencia es media Y peso es pesado Y aceleración es media ENTONCES eficiencia es baja
+  R14 (G17): SI potencia es media Y peso es pesado Y aceleración es alta ENTONCES eficiencia es media
+  R15 (G18): SI potencia es alta Y peso es ligero Y aceleración es baja ENTONCES eficiencia es media
+  R16 (G20): SI potencia es alta Y peso es ligero Y aceleración es alta ENTONCES eficiencia es alta
+  R17 (G21): SI potencia es alta Y peso es medio Y aceleración es baja ENTONCES eficiencia es baja
+  R18 (G22): SI potencia es alta Y peso es medio Y aceleración es media ENTONCES eficiencia es media
+  R19 (G23): SI potencia es alta Y peso es medio Y aceleración es alta ENTONCES eficiencia es alta
+  R20 (G24): SI potencia es alta Y peso es pesado Y aceleración es baja ENTONCES eficiencia es baja
+  R21 (G25): SI potencia es alta Y peso es pesado Y aceleración es media ENTONCES eficiencia es media
+  R22 (G26): SI potencia es alta Y peso es pesado Y aceleración es alta ENTONCES eficiencia es baja
+
+Reglas en skfuzzy:
+regla1 = ctrl.Rule(potencia['baja'] & peso['ligero'] & aceleracion['baja'], eficiencia['eficiencia_alta'])
+regla2 = ctrl.Rule(potencia['baja'] & peso['ligero'] & aceleracion['media'], eficiencia['eficiencia_media'])
+regla3 = ctrl.Rule(potencia['baja'] & peso['ligero'] & aceleracion['alta'], eficiencia['eficiencia_alta'])
+regla4 = ctrl.Rule(potencia['baja'] & peso['medio'] & aceleracion['baja'], eficiencia['eficiencia_alta'])
+regla5 = ctrl.Rule(potencia['baja'] & peso['medio'] & aceleracion['media'], eficiencia['eficiencia_baja'])
+regla6 = ctrl.Rule(potencia['baja'] & peso['pesado'] & aceleracion['baja'], eficiencia['eficiencia_baja'])
+regla7 = ctrl.Rule(potencia['media'] & peso['ligero'] & aceleracion['media'], eficiencia['eficiencia_alta'])
+regla8 = ctrl.Rule(potencia['media'] & peso['ligero'] & aceleracion['alta'], eficiencia['eficiencia_baja'])
+regla9 = ctrl.Rule(potencia['media'] & peso['medio'] & aceleracion['baja'], eficiencia['eficiencia_media'])
+regla10 = ctrl.Rule(potencia['media'] & peso['medio'] & aceleracion['media'], eficiencia['eficiencia_baja'])
+regla11 = ctrl.Rule(potencia['media'] & peso['medio'] & aceleracion['alta'], eficiencia['eficiencia_media'])
+regla12 = ctrl.Rule(potencia['media'] & peso['pesado'] & aceleracion['baja'], eficiencia['eficiencia_baja'])
+regla13 = ctrl.Rule(potencia['media'] & peso['pesado'] & aceleracion['media'], eficiencia['eficiencia_baja'])
+regla14 = ctrl.Rule(potencia['media'] & peso['pesado'] & aceleracion['alta'], eficiencia['eficiencia_media'])
+regla15 = ctrl.Rule(potencia['alta'] & peso['ligero'] & aceleracion['baja'], eficiencia['eficiencia_media'])
+regla16 = ctrl.Rule(potencia['alta'] & peso['ligero'] & aceleracion['alta'], eficiencia['eficiencia_alta'])
+regla17 = ctrl.Rule(potencia['alta'] & peso['medio'] & aceleracion['baja'], eficiencia['eficiencia_baja'])
+regla18 = ctrl.Rule(potencia['alta'] & peso['medio'] & aceleracion['media'], eficiencia['eficiencia_media'])
+regla19 = ctrl.Rule(potencia['alta'] & peso['medio'] & aceleracion['alta'], eficiencia['eficiencia_alta'])
+regla20 = ctrl.Rule(potencia['alta'] & peso['pesado'] & aceleracion['baja'], eficiencia['eficiencia_baja'])
+regla21 = ctrl.Rule(potencia['alta'] & peso['pesado'] & aceleracion['media'], eficiencia['eficiencia_media'])
+regla22 = ctrl.Rule(potencia['alta'] & peso['pesado'] & aceleracion['alta'], eficiencia['eficiencia_baja'])

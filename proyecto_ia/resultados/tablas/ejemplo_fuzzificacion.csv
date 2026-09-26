@@ -1,0 +1,4 @@
+variable,valor,bajo,calculo_bajo,medio,calculo_medio,alto,calculo_alto,comprobacion_skfuzzy
+horsepower,85.0,0.459,μ_baja = (93.5 - 85) / (93.5 - 75),0.541,μ_media = (85 - 75) / (93.5 - 75),0.0,μ_alta = fuera -> 0,igual
+weight,2575.0,0.395,μ_ligero = (2803.5 - 2575) / (2803.5 - 2225.25),0.605,μ_medio = (2575 - 2225.25) / (2803.5 - 2225.25),0.0,μ_pesado = fuera -> 0,igual
+acceleration,16.2,0.0,μ_baja = fuera -> 0,0.541,μ_media = (17.025 - 16.2) / (17.025 - 15.5),0.459,μ_alta = (16.2 - 15.5) / (17.025 - 15.5),igual

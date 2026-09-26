@@ -1,0 +1,28 @@
+gen,antecedente,support_antecedente,autos_activados,confidence_baja,lift_baja,confidence_media,lift_media,confidence_alta,lift_alta,mayor_lift,consecuente_elegido_por_AG,coincide
+G0,potencia baja Y peso ligero Y aceleración baja,0.0576,53,0.0227,0.0587,0.1848,0.7654,0.943,2.5366,alta,alta,sí
+G1,potencia baja Y peso ligero Y aceleración media,0.0925,99,0.0292,0.0755,0.2555,1.0583,0.9003,2.4217,alta,media,no
+G2,potencia baja Y peso ligero Y aceleración alta,0.1663,100,0.0345,0.0893,0.223,0.9238,0.8439,2.2702,alta,alta,sí
+G3,potencia baja Y peso medio Y aceleración baja,0.0086,20,0.1839,0.4753,0.5353,2.2173,0.8161,2.1954,media,alta,no
+G4,potencia baja Y peso medio Y aceleración media,0.0243,48,0.2629,0.6797,0.6576,2.724,0.7002,1.8834,media,baja,no
+G5,potencia baja Y peso medio Y aceleración alta,0.0565,72,0.2495,0.6449,0.614,2.5433,0.5864,1.5773,media,sin regla,
+G6,potencia baja Y peso pesado Y aceleración baja,0.0008,1,1.0,2.5852,0.585,2.4231,0.0,0.0,baja,baja,sí
+G7,potencia baja Y peso pesado Y aceleración media,0.0043,10,0.9353,2.4179,0.7568,3.1346,0.0647,0.174,media,sin regla,
+G8,potencia baja Y peso pesado Y aceleración alta,0.0254,32,0.5237,1.354,0.5333,2.2091,0.3893,1.0471,media,sin regla,
+G9,potencia media Y peso ligero Y aceleración baja,0.0495,55,0.1747,0.4515,0.5973,2.4739,0.6358,1.7102,media,sin regla,
+G10,potencia media Y peso ligero Y aceleración media,0.0565,72,0.0803,0.2075,0.6348,2.6294,0.7004,1.884,media,alta,no
+G11,potencia media Y peso ligero Y aceleración alta,0.0331,39,0.1878,0.4855,0.6482,2.6849,0.6162,1.6576,media,baja,no
+G12,potencia media Y peso medio Y aceleración baja,0.0545,60,0.3298,0.8527,0.7067,2.9271,0.4274,1.1497,media,media,sí
+G13,potencia media Y peso medio Y aceleración media,0.092,101,0.4172,1.0786,0.7135,2.9555,0.3408,0.9167,media,baja,no
+G14,potencia media Y peso medio Y aceleración alta,0.0784,84,0.3994,1.0324,0.7327,3.0349,0.355,0.955,media,media,sí
+G15,potencia media Y peso pesado Y aceleración baja,0.0094,20,0.7884,2.0381,0.8579,3.5537,0.0744,0.2001,media,baja,no
+G16,potencia media Y peso pesado Y aceleración media,0.0355,52,0.8576,2.2171,0.6622,2.7427,0.0243,0.0653,media,baja,no
+G17,potencia media Y peso pesado Y aceleración alta,0.0646,65,0.7734,1.9992,0.5445,2.2555,0.1037,0.2791,media,media,sí
+G18,potencia alta Y peso ligero Y aceleración baja,0.0108,26,0.2477,0.6404,0.828,3.4298,0.6311,1.6975,media,media,sí
+G19,potencia alta Y peso ligero Y aceleración media,0.0039,22,0.1827,0.4723,0.824,3.413,0.7507,2.0195,media,sin regla,
+G20,potencia alta Y peso ligero Y aceleración alta,0.0007,5,0.1055,0.2728,1.0,4.1421,0.7922,2.1309,media,alta,no
+G21,potencia alta Y peso medio Y aceleración baja,0.0438,58,0.5062,1.3086,0.6172,2.5564,0.2834,0.7622,media,baja,no
+G22,potencia alta Y peso medio Y aceleración media,0.0297,61,0.6631,1.7141,0.8229,3.4085,0.1619,0.4356,media,media,sí
+G23,potencia alta Y peso medio Y aceleración alta,0.0127,30,0.7604,1.9658,0.8298,3.4371,0.1252,0.3368,media,alta,no
+G24,potencia alta Y peso pesado Y aceleración baja,0.2172,112,0.9718,2.5124,0.0667,0.2762,0.0048,0.0128,baja,baja,sí
+G25,potencia alta Y peso pesado Y aceleración media,0.0523,65,0.9293,2.4023,0.3378,1.3993,0.0112,0.03,baja,media,no
+G26,potencia alta Y peso pesado Y aceleración alta,0.0328,42,0.8589,2.2204,0.4556,1.8871,0.0473,0.1273,baja,baja,sí

@@ -1,0 +1,8 @@
+regla,gen,texto,mu_horsepower,mu_weight,mu_acceleration,alpha,consecuente
+R2,G1,SI potencia es baja Y peso es ligero Y aceleración es media ENTONCES eficiencia es media,0.459,0.395,0.541,0.395,eficiencia_media
+R3,G2,SI potencia es baja Y peso es ligero Y aceleración es alta ENTONCES eficiencia es alta,0.459,0.395,0.459,0.395,eficiencia_alta
+R5,G4,SI potencia es baja Y peso es medio Y aceleración es media ENTONCES eficiencia es baja,0.459,0.605,0.541,0.459,eficiencia_baja
+R7,G10,SI potencia es media Y peso es ligero Y aceleración es media ENTONCES eficiencia es alta,0.541,0.395,0.541,0.395,eficiencia_alta
+R8,G11,SI potencia es media Y peso es ligero Y aceleración es alta ENTONCES eficiencia es baja,0.541,0.395,0.459,0.395,eficiencia_baja
+R10,G13,SI potencia es media Y peso es medio Y aceleración es media ENTONCES eficiencia es baja,0.541,0.605,0.541,0.541,eficiencia_baja
+R11,G14,SI potencia es media Y peso es medio Y aceleración es alta ENTONCES eficiencia es media,0.541,0.605,0.459,0.459,eficiencia_media

@@ -1,0 +1,9 @@
+,mpg,horsepower,weight
+mpg,1.0,-0.778,-0.832
+cylinders,-0.778,0.843,0.898
+displacement,-0.805,0.897,0.933
+horsepower,-0.778,1.0,0.865
+weight,-0.832,0.865,1.0
+acceleration,0.423,-0.689,-0.417
+model_year,0.581,-0.416,-0.309
+origin,0.565,-0.455,-0.585

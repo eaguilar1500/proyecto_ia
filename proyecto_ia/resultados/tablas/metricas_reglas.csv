@@ -1,0 +1,23 @@
+regla,gen,antecedente,consecuente,support_antecedente,support_regla,confidence,lift,autos_activados
+R1,G0,potencia baja Y peso ligero Y aceleración baja,eficiencia_alta,0.0576,0.0544,0.943,2.5366,53
+R2,G1,potencia baja Y peso ligero Y aceleración media,eficiencia_media,0.0925,0.0236,0.2555,1.0583,99
+R3,G2,potencia baja Y peso ligero Y aceleración alta,eficiencia_alta,0.1663,0.1403,0.8439,2.2702,100
+R4,G3,potencia baja Y peso medio Y aceleración baja,eficiencia_alta,0.0086,0.007,0.8161,2.1954,20
+R5,G4,potencia baja Y peso medio Y aceleración media,eficiencia_baja,0.0243,0.0064,0.2629,0.6797,48
+R6,G6,potencia baja Y peso pesado Y aceleración baja,eficiencia_baja,0.0008,0.0008,1.0,2.5852,1
+R7,G10,potencia media Y peso ligero Y aceleración media,eficiencia_alta,0.0565,0.0396,0.7004,1.884,72
+R8,G11,potencia media Y peso ligero Y aceleración alta,eficiencia_baja,0.0331,0.0062,0.1878,0.4855,39
+R9,G12,potencia media Y peso medio Y aceleración baja,eficiencia_media,0.0545,0.0385,0.7067,2.9271,60
+R10,G13,potencia media Y peso medio Y aceleración media,eficiencia_baja,0.092,0.0384,0.4172,1.0786,101
+R11,G14,potencia media Y peso medio Y aceleración alta,eficiencia_media,0.0784,0.0574,0.7327,3.0349,84
+R12,G15,potencia media Y peso pesado Y aceleración baja,eficiencia_baja,0.0094,0.0074,0.7884,2.0381,20
+R13,G16,potencia media Y peso pesado Y aceleración media,eficiencia_baja,0.0355,0.0304,0.8576,2.2171,52
+R14,G17,potencia media Y peso pesado Y aceleración alta,eficiencia_media,0.0646,0.0352,0.5445,2.2555,65
+R15,G18,potencia alta Y peso ligero Y aceleración baja,eficiencia_media,0.0108,0.0089,0.828,3.4298,26
+R16,G20,potencia alta Y peso ligero Y aceleración alta,eficiencia_alta,0.0007,0.0006,0.7922,2.1309,5
+R17,G21,potencia alta Y peso medio Y aceleración baja,eficiencia_baja,0.0438,0.0222,0.5062,1.3086,58
+R18,G22,potencia alta Y peso medio Y aceleración media,eficiencia_media,0.0297,0.0244,0.8229,3.4085,61
+R19,G23,potencia alta Y peso medio Y aceleración alta,eficiencia_alta,0.0127,0.0016,0.1252,0.3368,30
+R20,G24,potencia alta Y peso pesado Y aceleración baja,eficiencia_baja,0.2172,0.2111,0.9718,2.5124,112
+R21,G25,potencia alta Y peso pesado Y aceleración media,eficiencia_media,0.0523,0.0177,0.3378,1.3993,65
+R22,G26,potencia alta Y peso pesado Y aceleración alta,eficiencia_baja,0.0328,0.0282,0.8589,2.2204,42
